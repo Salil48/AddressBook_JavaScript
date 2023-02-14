@@ -1,4 +1,4 @@
-console.log("Welcome to AddressBook program using javascript");
+console.log("Wel-Come to AddressBook program using javascript");
 //Importing the neccessary module
 var readlineSync = require('readline-sync');
 
@@ -60,6 +60,5 @@ function getContactDetails() {
         console.error(e);
     }
 }
-
 //Calling the function
 getContactDetails();
